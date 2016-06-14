@@ -1,0 +1,2 @@
+ejecutar como administrador PowerShell
+ejecutar el siguiente comando: Set-ExecutionPolicy Unrestricted

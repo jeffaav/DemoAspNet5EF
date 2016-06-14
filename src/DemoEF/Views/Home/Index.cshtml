@@ -1,0 +1,15 @@
+﻿@model List<Project>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Hola!</h1>
+
+@foreach (var item in Model)
+{
+   <div>
+       @item.ProjectName
+   </div>
+}
